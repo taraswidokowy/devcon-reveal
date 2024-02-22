@@ -16,33 +16,38 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-color="#1dd5c7" class="cover">
-					<div class="hangar-logo"></div>
-					<div class="title"><p><strong>_Overthinking the code</strong></p><p><small>(when eloquence kills readibility)</small></p></div>
-					<img loading="lazy" decoding="async" src="img/01_HeaderStartseite_960x960_Loop2Sek.gif" alt="Arrow" width="560" height="560">
+				<section data-background-color="#05164c">
+					<img style="transform: scale(1.3)" loading="lazy" decoding="async" src="img/master.png" alt="Arrow">
 				</section>
 
-				<section>
+				<section class="background-horizontal-division">
 					<div class="image-wrapper"><img alt="classroom with students" src="img/max-shilov-phwRbHF6T8Q-unsplash.jpg"></div>
 					<aside class="notes"><ul>
 						<li>university lecturer </li>
+						<><br>
+						SEEMS FAMILIAR?
+						<br><>
 						<li>no blame game, what's the root cause?</li>
+						<><br>
 						<li>My name is FJ, I'm a lead FE dev for hangar</li>
 						<li>persuade you that overthinking causes collateral damage</li>
 					</ul>
 					</aside>
 				</section>
 
-				<section class="cover">
-					<div class="title title-accent"><p><strong>_Overthinking the code</strong></p><p><small>(when eloquence kills readibility)</small></p></div>
-					<img style="visibility:hidden" src="img/01_HeaderStartseite_960x960_Loop2Sek.gif" alt="Arrow" width="560" height="560">
+				<section data-background-color="#1dd5c7" class="cover">
+					<div class="hangar-logo"></div>
+					<div class="title"><p><strong>_Overthinking the code</strong></p><p><small>(when eloquence kills readability)</small></p></div>
+					<img loading="lazy" decoding="async" src="img/01_HeaderStartseite_960x960_Loop2Sek.gif" alt="Arrow" width="560" height="560">
 				</section>
 
 				<section>
 					<div class="strong header-like">readability <span class="accent x3">></span> efficiency</div>
 					<div class="strong fragment">maintenance cost <span class="accent x3">-></span> technical debt</div>
 					<aside class="notes">
-						thesis no.1
+						thesis no.1<br><br>
+						EFFICIENCY also means computational complexity<br><br>
+						maint. cost is overthinking
 					</aside>
 				</section>
 
@@ -63,12 +68,20 @@
 						</div>
 						<br>
 						<small><a href="https://lodash.com/docs/4.17.15#curry" target="_new">curry docs (lodash)</a></small>
+						<aside class="notes">arity</aside>
 					</section>
 					<section>
 						<div class="image-wrapper">
 							<img src="img/curry3.png" alt="curry3">
 						</div>
+						<aside class="notes">the reason I'm giving this talk is Robert <br><br>who claims that...</aside>
+
 					</section>
+				</section>
+
+				<section>
+					<div class="image-wrapper"><img src="img/stressful.jpg" alt="stressful"></div>
+					<aside class="notes">I'd like to save some lifes</aside>
 				</section>
 
 				<section data-transition="slide-in fade-out">
@@ -90,9 +103,6 @@
 							<div class="on-accent strong">?</div>
 							<div class="strong font-size-huge">WHY</div>
 						</div>
-						<aside class="notes">
-
-						</aside>
 					</section>
 					<section>
 						<div class="mini-slides-wrapper">
@@ -121,34 +131,50 @@
 					<section data-transition="slide-in fade-out">
 						<h4>_CV driven development</h4>
 						<aside class="notes">
+							a.k.a. I want to learn...
 						</aside>
 					</section>
-					<section data-transition="slide-in fade-out">
-						<h4>_I want to learn something new</h4>
-						<aside class="notes">
-							e.g. new library - JS world every word is a library
-						</aside>
+					<section>
+						<div class="image-wrapper"><img heigth="80%" src="img/cv-driven-development.png" alt="CV driven development"></div>
 					</section>
 					<section data-transition="slide-in fade-out">
 						<h4>_I just learnt how to...</h4><br>
 						<blockquote class="fragment">those who learn a new technology have a short term issue where it's "technology" driven solutions</blockquote>
-						<div class="fragment blockquote-author">Martin Fowler</div>
+						<div class="fragment blockquote-author"><a href="https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer)">Martin Fowler</a>	</div>
 						<aside class="notes">
 							e.g. new design pattern I MUST implement everywhere
 						</aside>
 					</section>
 					<section data-transition="slide-in fade-out">
-						<h4>_YAGNI</h4>
+						<h4> _!YAGNI</h4>
+						<div class="padding-top-plus-1-0-em accent-on-first-letter">
+							<div><span class="accent">Y</span>ou</div>
+							<div><span class="accent">A</span>in't</div>
+							<div><span class="accent">G</span>onna</div>
+							<div><span class="accent">N</span>eed</div>
+							<div><span class="accent">I</span>t</div>
+						</div>
 						<aside class="notes">
 							dont do it 'for later'
 						</aside>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/yagni1.png" alt="yagni 1" /> </div><br>
+						<div class="image-wrapper fragment"><img src="img/yagni2.png" alt="yagni 2" /> </div>
 					</section>
 					<section data-transition="slide-in fade-out">
 						<h4>_flexing :)</h4>
 						<aside class="notes">
 							to feel better, to show off.<br>
-							after all we're just human beings<br>
+							human beings<br>
 							OBFUSCATION
+						</aside>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/flexing1.png"></div><br>
+						<div class="image-wrapper fragment"><img src="img/flexing2.png"></div><br>
+						<aside class="notes">
+							bitwise negation on 32 bits
 						</aside>
 					</section>
 					<section data-background-color="#1dd5c7">
@@ -194,7 +220,8 @@
 						<h4>_project oriented guys part of a service</h4>
 						<aside class="notes">
 							different approach when you finish + handing over<br>
-							difference between project and service
+							difference between project and service<br><br>
+							getting paid for each SP burned
 						</aside>
 					</section>
 					<section data-background-color="#1dd5c7">
@@ -228,28 +255,52 @@
 						</aside>
 					</section>
 					<section data-transition="slide-in fade-out">
-						<h4>_pato-agile: no time for refinement</h4>
-						<aside class="notes">
-						</aside>
-					</section>
-					<section data-transition="slide-in fade-out">
-						<h4>_pato-agile: improper (under-) estimation</h4>
-						<aside class="notes">
-						</aside>
-					</section>
-					<section data-transition="slide-in fade-out">
-						<h4>_focus on delivery without bearing in mind maintenance</h4>
-						<aside class="notes">
-						</aside>
-					</section>
-					<section data-transition="slide-in fade-out">
 						<h4>_focusing on time-to-market</h4>
+						<h4 class="fragment">_no time for refinement</h4>
+						<h4 class="fragment">_improper (under-) estimation</h4>
 						<aside class="notes">
+							no time for refactor since we want to deliver faster <br><br>
+							what's the aim of refactoring then:)?
 						</aside>
 					</section>
+					<section>
+						<div><span class="accent">bug desc:</span> loading indicator not visible for Austrian</div>
+						<ul>
+							<li class="fragment">one codebase, 4 tenants (airlines)</li>
+							<li class="fragment">SCSS with tenant specific variable values</li>
+						</ul>
+						<img class="fragment" src="img/scssbug.png" alt="scss bug" width="50%"/>
+					</section>
+					<section>
+						<h4>_fix:</h4><br>
+						<div class="image-wrapper"><img src="img/scssfix.png" alt="scss fix"></div>
+					</section>
+					<section>
+						<h4 class="padding-top-minus-0-2-em">_but how?:</h4>
+						<div class="image-wrapper"><img src="img/scssfix2.png" width="80%" alt="scss fix"></div>
+					</section>
 					<section data-transition="slide-in fade-out">
-						<h4>_outdated technology</h4>
+						<h4>_outdated technology</h4><br>
+						<div class="image-wrapper fragment"><img src="img/setQ.png" width="80%"></div>
 						<aside class="notes">
+							LIBRARY funct. built from scratch but also<br><br>When was the last time you used Set in JS?
+						</aside>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/set.png"></div>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/uniques1.png" width="30%"></div><br>
+						<div class="image-wrapper fragment"><img src="img/uniques2.png" width="30%"></div><br>
+						<div class="image-wrapper fragment"><img src="img/reduce.png" width="50%"></div>
+					</section>
+
+					<section>
+						<h4>_delivery without bearing in mind maintenance</h4><br>
+						<div class="image-wrapper fragment"><img width="90%" src="img/dothis.png" alt="do this and not that"></div>
+						<aside class="notes">
+							by this time you're probably already aware that refactoring is a must since <br>
+							code grows organicaly and in the same way as e.g. LAWN, it must be constantly cared and tidied
 						</aside>
 					</section>
 					<section data-background-color="#1dd5c7">
@@ -289,6 +340,7 @@
 							<div class="hidden"><div class="hangar-content">4</div>
 								<div class="mini-slides-content">
 									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
+									<br><br> ...and stale bugs no-one is able to fix
 								</div>
 							</div>
 							<div class="hidden"><div class="hangar-content">5</div>
@@ -326,6 +378,7 @@
 							<div class="hidden"><div class="hangar-content">4</div>
 								<div class="mini-slides-content">
 									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
+									<br><br> ...and stale bugs no-one is able to fix
 								</div>
 							</div>
 							<div class="hidden"><div class="hangar-content">5</div>
@@ -362,6 +415,7 @@
 							<div class="hidden"><div class="hangar-content">4</div>
 								<div class="mini-slides-content">
 									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
+									<br><br> ...and stale bugs no-one is able to fix
 								</div>
 							</div>
 							<div class="hidden"><div class="hangar-content">5</div>
@@ -398,6 +452,7 @@
 							<div class="active"><div class="hangar-content">4</div>
 								<div class="mini-slides-content">
 									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
+									<br><br> ...and stale bugs no-one is able to fix
 								</div>
 							</div>
 							<div class="hidden"><div class="hangar-content">5</div>
@@ -412,38 +467,8 @@
 							</div>
 						</div>
 					</section>
-					<section class="background-horizontal-division">
-						<div class="mini-slides-wrapper">
-							<div><div class="hangar-content">1</div>
-								<div class="mini-slides-content"> <div>maintenance</div> extending poorly written code is expensive, yet reverse engineering the code that was "overthinked" requires even more effort
-								</div>
-							</div>
-							<div><div class="hangar-content">2</div>
-								<div class="mini-slides-content">
-									<div>implementation</div> the bigger and more complex the project, the lower speed of feature creation / bugfixing
-								</div>
-							</div>
-							<div><div class="hangar-content">3</div>
-								<div class="mini-slides-content">
-									<div>usability</div> complexity growth is an organic thing and just like any other organic things should be trimmed and pruned if we want it to continue to be usable
-								</div>
-							</div>
-							<div><div class="hangar-content">4</div>
-								<div class="mini-slides-content">
-									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
-								</div>
-							</div>
-							<div class="active"><div class="hangar-content">5</div>
-								<div class="mini-slides-content">
-									<div>premature optimization</div> effort that might not be required at all
-								</div>
-							</div>
-							<div class="hidden"><div class="hangar-content">6</div>
-								<div class="mini-slides-content">
-									<div>onboarding</div> knowing tech stack should be enough to start working. Adding an abstraction level of 'knowing the product' cripples onboarding process
-								</div>
-							</div>
-						</div>
+					<section>
+						<div class="image-wrapper"><img src="img/exclusiveness.png" alt="exclusiveness" width="60%"></div>
 					</section>
 					<section class="background-horizontal-division">
 						<div class="mini-slides-wrapper">
@@ -464,6 +489,42 @@
 							<div><div class="hangar-content">4</div>
 								<div class="mini-slides-content">
 									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
+									<br><br> ...and stale bugs no-one is able to fix
+								</div>
+							</div>
+							<div class="active"><div class="hangar-content">5</div>
+								<div class="mini-slides-content">
+									<div>premature optimization</div> effort that might not be required at all
+								</div>
+							</div>
+							<div class="hidden"><div class="hangar-content">6</div>
+								<div class="mini-slides-content">
+									<div>onboarding</div> knowing tech stack should be enough to start working. Adding an abstraction level of 'knowing the product' cripples onboarding process
+								</div>
+							</div>
+						</div>
+					</section>
+					<section><div class="image-wrapper"><img src="img/premature_optimization.jpg" alt="premature optimization" width="60%"></div></section>
+					<section class="background-horizontal-division">
+						<div class="mini-slides-wrapper">
+							<div><div class="hangar-content">1</div>
+								<div class="mini-slides-content"> <div>maintenance</div> extending poorly written code is expensive, yet reverse engineering the code that was "overthinked" requires even more effort
+								</div>
+							</div>
+							<div><div class="hangar-content">2</div>
+								<div class="mini-slides-content">
+									<div>implementation</div> the bigger and more complex the project, the lower speed of feature creation / bugfixing
+								</div>
+							</div>
+							<div><div class="hangar-content">3</div>
+								<div class="mini-slides-content">
+									<div>usability</div> complexity growth is an organic thing and just like any other organic things should be trimmed and pruned if we want it to continue to be usable
+								</div>
+							</div>
+							<div><div class="hangar-content">4</div>
+								<div class="mini-slides-content">
+									<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge
+									<br><br> ...and stale bugs no-one is able to fix
 								</div>
 							</div>
 							<div><div class="hangar-content">5</div>
@@ -481,6 +542,9 @@
 							types of costs
 						</aside>
 					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/documentation.jpg" alt="documentation"></div>
+					</section>
 
 				</section>
 
@@ -494,11 +558,185 @@
 
 						</aside>
 					</section>
+					<section>
+						<h4>_readability!</h4>
+						<div>The most important element of code maintenance</div><br>
+						<div class="fragment">Overly complicated solutions almost always decrease readability, thus increasing maintenance costs.</div>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/readibility1.png" alt="readability" /></div><br>
+						<div class="image-wrapper fragment"><img src="img/readibility2.png" alt="readability" /></div>
+					</section>
+					<section>
+						<div>poor readability <span class="accent strong">==</span> poor code </div><br>
+						<div class="image-wrapper fragment"><img src="img/magic-numbers.png" alt="magic numbers" /></div><br>
+						<div class="fragment">say <span class="accent strong">NO</span> to 'magic numbers'</div>
+					</section>
+					<section>
+						<h4>_DRY</h4>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/dry1.png"></div>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/dry2.png" width="80%"></div>
+					</section>
+					<section>
+						<h4>_YAGNI</h4>
+						<div class="image-wrapper padding-top-plus-0-1-em"><img src="img/yagni0.png" alt="yagni" width="60%"></div>
+					</section>
+					<section>
+						<h4>_KISS</h4>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/kiss1.png"  width="70%"></div>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/kiss2.png"  width="70%"></div>
+					</section>
+					<section>
+						<h4>_SOLID</h4>
+						<div><span class="accent">S</span>ingle Responsibility</div><br>
+						<div class="image-wrapper"><img	src="img/single1.png"/> </div><br>
+						<div class="image-wrapper"><img	src="img/single2.png"/> </div>
+					</section>
+					<section>
+						<h4>_comments!</h4>
+						<ul>
+							<li class="fragment">if there is a need to put in a comment, maybe this part deserves its own <span class="accent strong">new function?</span></li>
+							<li class="fragment">put not only <span class="accent strong">WHAT</span> but also <span class="accent strong">WHY</span></li>
+						</ul>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/sheldon.png" width="65%"/></div>
+					</section>
+
+					<section>
+						<h4>_Write unit tests</h4>
+							<video loop autoplay controls width="250">
+								<source src="/img/unit-tests.webm" type="video/webm">
+							</video>
+					</section>
+					<section>
+						<h4>_learn how to say <span class="strong accent">NO</span></h4><br>
+						<div class="fragment image-wrapper"><img src="img/sayno.jpg" alt="say no"></div>
+						<aside class="notes">
+							we need to deliver fast<br>no time to refactor since we have to deliver fast:)))<br><br>manager may come to you with a direction that makes no sense <br> could harm the project.<br><br>
+							atomic design
+						</aside>
+					</section>
+
+
+					<section class="background-horizontal-division">
+						<h4>_Software craftsmanship</h4><br>
+						<div class="mini-slides-wrapper">
+							<div><div class="hangar-content">1</div>
+								<div class="mini-slides-content">
+									<div>continuous learning</div> seeking out new tools, techniques, and approaches. <br><br>Always looking for ways to improve the craft
+								</div>
+							</div>
+							<div><div class="hangar-content">2</div>
+								<div class="mini-slides-content">
+									<div>attention to detail</div> + deep understanding of programming concepts, design patterns, and best practices
+								</div>
+							</div>
+							<div><div class="hangar-content">3</div>
+								<div class="mini-slides-content">
+									<div>focus on quality</div> producing high-quality code that is maintainable, scalable, and robust. <br><br>This involves rigorous testing, code reviews, and other quality control measures
+								</div>
+							</div>
+						</div>
+						<aside class="notes">
+							emphasizes the importance of treating software development as a skilled craft, and striving to produce high-quality code and software systems that are both functional and maintainable
+						</aside>
+					</section>
+					<section class="background-horizontal-division">
+						<h4>_Software craftsmanship</h4><br>
+						<div class="mini-slides-wrapper">
+							<div class="hidden"><div class="hangar-content">1</div>
+								<div class="mini-slides-content">
+								</div>
+							</div>
+							<div><div class="hangar-content">4</div>
+								<div class="mini-slides-content">
+									<div>collaborative approach</div> working closely with other developers, as well as stakeholders such as product owners
+								</div>
+							</div>
+							<div class="hidden"><div class="hangar-content">3</div>
+								<div class="mini-slides-content">
+								</div>
+							</div>
+						</div>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section>
+						<h4>_Software craftsmanship</h4><br>
+						<div>mindset that emphasizes the importance of creating software systems that are not just
+							<span class="accent">functional</span>, but also <span class="accent">elegant</span>,
+							<span class="accent">efficient</span>, and <span class="accent">maintainable</span> over the <span class="accent strong">long term</span></div>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section>
+						<h4>_be kind to yourself</h4><br>
+						<div class="image-wrapper"><img width="40%" src="img/kind.png" alt="be kind to yourself"> </div>
+						<aside class="notes">recently we introduced a feature on production... bug doubling the prices</aside>
+					</section>
+					<section>
+						<video autoplay controls width="100%">
+							<source src="/img/pricesbug.mov" type="video/mp4">
+						</video>
+					</section>
+				</section>
+				<section>
+					<section data-background-color="#1dd5c7">
+						<div class="two-columns strong">
+							<div class="on-accent strong">!</div>
+							<div class="strong font-size-huge">WRAP UP</div>
+						</div>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section>
+						<div>Poorly written code (ie. <span class="accent">overthinked</span>, with poor readability) is:</div>
+						<ul>
+							<li>Difficult to understand</li>
+							<li>Longer to debug</li>
+							<li>Hard to maintain</li>
+							<li>Tricky to extend</li>
+							<li class="fragment">hard to share knowledge of (among other devs)</li>
+						</ul>
+						<aside class="notes">
+						</aside>
+					</section>
+					<section>
+						<h4>_in code delivery:</h4>
+						<div class="strong header-like">readability <span class="accent x3">></span> efficiency</div>
+						<aside class="notes">
+							in code delivery
+						</aside>
+					</section>
+					<section>
+						<div class="image-wrapper"><img src="img/readibility.png" alt="readability" ></div>
+					</section>
+
+				</section>
+
+				<section data-background-color="#05164d" >
+					<div class="two-columns strong">
+						<div class="on-dark strong padding-top-minus-0-1-em">:)</div>
+						<div class="on-dark strong">could it be simplified?</div>
+					</div>
+					<aside class="notes">If there would be ONE THING to take
+						<br><br>
+						steve jobs ipod design
+					</aside>
 				</section>
 
 				<section data-background-color="#1dd5c7" class="cover">
 					<div class="hangar-logo"></div>
-					<div class="title"><p><strong>_Overthinking the code</strong></p><p><small>(when "eloquence" kills readibility)</small></p></div>
+					<div class="title"><p><strong>_Questions?</strong></p></div>
 					<img loading="lazy" decoding="async" src="img/01_HeaderStartseite_960x960_Loop2Sek.gif" alt="Arrow" width="560" height="560">
 				</section>
 
@@ -511,95 +749,94 @@
 
 
 
-				<section>
-					<section>
-						<div class="two-columns strong">
-							<div class="on-white strong">!</div>
-							<div class="strong">"overthinking asdasdasdasdasdasd technical debt"</div>
-						</div>
-					</section>
-					<section data-background-color="#1dd5c7">
-						<div class="two-columns strong">
-							<div class="on-accent strong">!</div>
-							<div class="strong">"overthinking asdasdasdasdasdasd technical debt"</div>
-						</div>
-					</section>
-					<section data-background-color="#05164d" >
-						<div class="two-columns strong">
-							<div class="on-dark strong">!</div>
-							<div class="on-dark strong">"overthinking asdasdasdasdasdasd technical debt"</div>
-						</div>
-					</section>
-				</section>
-
-				<section class="background-horizontal-division">
-					<div class="mini-slides-wrapper">
-						<div><div class="hangar-content">1</div>
-							<div class="mini-slides-content"> Lorem asdfa
-						df
-						asdf
-						asdf
-						asd
-						fasd
-								fas
-							</div>
-						</div>
-						<div class="active"><div class="hangar-content">2</div>
-							<div class="mini-slides-content">
-								asdasfasdfasd sdsdf gsdf dfgdfgdfgdfgdfgd fd  gdf gdg df g ddfgh dfgh dfh dfh dfh dfgh dfh fdg hfdgh fdgh dfgh fgdh sfg dfsg dsfg dsfg dsfg dsf gdfs gdsf gsd gds gsd gs sdfg sdg sdfg sdf gffg sdg sdf gsdfg sdfgsdfasd
-							</div>
-						</div>
-						<div><div class="hangar-content">3</div>
-							<div class="mini-slides-content">
-								dfg dfg sdf g dsfg ds g dfg sdfg sd
-							</div>
-						</div>
-						<div><div class="hangar-content">4</div>
-							<div class="mini-slides-content">
-								sdfgsdf sdfg fd dfs gsdf g df s dg sd gs dgf
-							</div>
-						</div>
-						<div><div class="hangar-content">5</div>
-							<div class="mini-slides-content">
-								sdfgds g sd dfs dfs g g fd s dfs s d g df gd fg sd ds d ds d  gs dg ggdgds
-							</div>
-						</div>
-						<div><div class="hangar-content">6</div>
-							<div class="mini-slides-content">
-								asdasd
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section>
-					<div class="section-title">srutututu sekcja</div>
-					<section>
-						subsection text
-					</section>
-					<section>
-						tralalalalalal
-					</section>
-					<section>
-						hopsasasas
-					</section>
-				</section>
-
-				<section>
-					<h1>_JNB.1</h1>
-				</section>
-				<section data-transition="slide-in fade-out">
-					<h4>_One ID Travel Partners:</h4>
-					<span class="hangar-content">1 kaczka !</span>
-					<ul>
-						<li class="fragment">'<strong>Edit</strong>' link hides profile</li>
-					</ul>
-				</section>
 
 
-				<section data-background-color="#fff">
-					<h1>_Thank you!</h1>
-				</section>
+
+
+<!--				<section>-->
+<!--					<section>-->
+<!--						<div class="two-columns strong">-->
+<!--							<div class="on-white strong">!</div>-->
+<!--							<div class="strong">"overthinking asdasdasdasdasdasd technical debt"</div>-->
+<!--						</div>-->
+<!--					</section>-->
+<!--					<section data-background-color="#1dd5c7">-->
+<!--						<div class="two-columns strong">-->
+<!--							<div class="on-accent strong">!</div>-->
+<!--							<div class="strong">"overthinking asdasdasdasdasdasd technical debt"</div>-->
+<!--						</div>-->
+<!--					</section>-->
+<!--					<section data-background-color="#05164d" >-->
+<!--						<div class="two-columns strong">-->
+<!--							<div class="on-dark strong">!</div>-->
+<!--							<div class="on-dark strong">"overthinking asdasdasdasdasdasd technical debt"</div>-->
+<!--						</div>-->
+<!--					</section>-->
+<!--				</section>-->
+
+<!--				<section class="background-horizontal-division">-->
+<!--					<div class="mini-slides-wrapper">-->
+<!--						<div><div class="hangar-content">1</div>-->
+<!--							<div class="mini-slides-content"> <div>maintenance</div> extending poorly written code is expensive, yet reverse engineering the code that was "overthinked" requires even more effort-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="active"><div class="hangar-content">2</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>implementation</div> the bigger and more complex the project, the lower speed of feature creation / bugfixing-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">3</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>usability</div> complexity growth is an organic thing and just like any other organic things should be trimmed and pruned if we want it to continue to be usable-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">4</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge-->
+<!--								<br><br> ...and stale bugs no-one is able to fix-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">5</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>premature optimization</div> effort that might not be required at all-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">6</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>onboarding</div> knowing tech stack should be enough to start working. Adding an abstraction level of 'knowing the product' cripples onboarding process-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</section>-->
+
+<!--				<section>-->
+<!--					<div class="section-title">srutututu sekcja</div>-->
+<!--					<section>-->
+<!--						subsection text-->
+<!--					</section>-->
+<!--					<section>-->
+<!--						tralalalalalal-->
+<!--					</section>-->
+<!--					<section>-->
+<!--						hopsasasas-->
+<!--					</section>-->
+<!--				</section>-->
+
+<!--				<section>-->
+<!--					<h1>_JNB.1</h1>-->
+<!--				</section>-->
+<!--				<section data-transition="slide-in fade-out">-->
+<!--					<h4>_One ID Travel Partners:</h4>-->
+<!--					<span class="hangar-content">1 kaczka !</span>-->
+<!--					<ul>-->
+<!--						<li class="fragment">'<strong>Edit</strong>' link hides profile</li>-->
+<!--					</ul>-->
+<!--				</section>-->
+
+
+<!--				<section data-background-color="#fff">-->
+<!--					<h1>_Thank you!</h1>-->
+<!--				</section>-->
 			</div>
 		</div>
 

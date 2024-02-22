@@ -187,6 +187,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   color: var(--r-accent);
 }
 
+.accent-invert {
+  color: var(--r-background-color);
+}
+
 .reveal em {
   font-style: italic;
 }
@@ -560,7 +564,7 @@ section.background-horizontal-division{
   line-height: 140%;
 }
 .mini-slides-content div {
-  padding: 1em 0 2em 0;
+  padding: 1em 0 1em 0;
   font-weight: bold;
 }
 
@@ -623,6 +627,20 @@ div.image-wrapper:has(img){
 .two-columns div:first-of-type {
   font-size: 17em;
 }
+.padding-top-minus-0-1-em {
+  transform: translate(0,-.1em);
+}
+.padding-top-minus-0-2-em {
+  transform: translate(0,-.2em);
+}
+
+.padding-top-plus-1-0-em {
+  transform: translate(0, 1em);
+}
+.padding-top-plus-0-1-em {
+  transform: translate(0, .1em);
+}
+
 .two-columns div.on-white:first-of-type {
   color: var(--r-accent);
   -webkit-text-fill-color: var(--r-background-color);
@@ -670,8 +688,27 @@ blockquote:after {
   bottom: -.9em;
   right: .2em;
 }
-.blockquote-author{
+.blockquote-author {
   padding-top:.5em;
   text-align: right;
 }
-
+.text-to-left {
+  text-align: left;
+}
+.text-to-right {
+   text-align: right;
+}
+.accent-on-first-letter {
+  margin: 0 auto;
+}
+.accent-on-first-letter div {
+  margin: 0 auto;
+  width: 20%;
+  transform: translate(1em, 0);
+  text-align: left;
+}
+.accent-on-first-letter div span {
+  text-align: center;
+  display: inline-block;
+  width: .8em;
+}

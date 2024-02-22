@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/hangar.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section data-transition="slide-in fade-out">
+					<h4>_OSA1:</h4>
+					<ul>
+						<li class="fragment" data-notes="..."> <strong>bugfixes</strong> (2 items) </li>
+						<li class="fragment" data-notes="..."> FlightStatus <strong>next steps</strong> (design system) </li>
+						<li class="fragment" data-notes="..."> <strong>Flight Status</strong> refactor </li>
+						<li class="fragment" data-notes="..."> <strong>React template</strong> adjustments (hangar-scoped)</li>
+					</ul>
+					<aside class="notes">
+						...
+					</aside>
+				</section>
+
+				<section data-background-color="#fff">
+					<h2>_Impediments on FE</h2>
+				</section>
+
+				<section data-transition="slide-in fade-out">
+					<ul>
+						<li data-notes="...">non-prod <strong>service connection</strong> in Azure not working <strong class="accent">*</strong></li>
+						<li data-notes="...">web-component template not owned by anyone (waiting for CR)<strong class="accent">*</strong></li>
+						<li data-notes="...">digital-hangar-templates project having a policy of required "DH_TEAM_Template_<strong>Angular</strong>" approval <strong class="accent">*</strong></li>
+						<li data-notes="...">lack of DH-specific processes knowledge source. msTeams as main fallback<strong class="accent">*</strong> </li>
+					</ul>
+<br><br>
+					<small>
+					* - the same as last sprint</small>
+					<aside class="notes">
+						...
+					</aside>
+				</section>
+
+				<section data-background-color="#fff">
+					<img src="img/impediment1.png" width="80%"/>
+					<img src="img/impediment2.png" width="80%"/>
+					<img src="img/impediment3.png" width="80%"/>
+				</section>
+
+
+				<section data-background-color="#fff">
+					<h1>_Achievements</h1>
+				</section>
+				<section>
+					<ul>
+						<li>adding AirEMs BE interfaces to web-component template</li>
+						<li>adding AirEMs AEM catalogue interface to web-component template</li>
+						<li>lowering the learning curve by making authorisation routines out-of-the-box for former AirEM devs</li>
+					</ul>
+				</section>
+
+				<section>
+					<div>[bugfixes presentation]</div>
+				</section>
+
+
+
+
+
+				<section><img src="img/kupa.png" /></section>
+
+				<section>
+					<ul>
+						<li>Web components should be small and independent</li>
+						<li class="fragment">...yet in the hangar ecosystem it is often <strong>a synonyme</strong> of a SPA / complex functionality</li>
+						<li class="fragment">web components may, but doesn't have to use DeSy</li>
+						<li class="fragment">DeSy team is indeed creating web components</li>
+						<li class="fragment">major pain point for legacy WoW: being tied to CSI release schedule</li>
+						<li class="fragment">it is possible to use DeSy (read: web-components) in legacy AirEM code</li>
+					</ul>
+				</section>
+
+
+
+
+
+
+				<section data-background-color="#05164d" >
+					<div class="two-columns strong">
+						<div class="on-dark strong">?</div>
+						<div class="on-dark strong">Q & A</div>
+					</div>
+				</section>
+
+
+
+
+<!--				<section>-->
+<!--					<section>-->
+<!--						<div class="two-columns strong">-->
+<!--							<div class="on-white strong">!</div>-->
+<!--							<div class="strong">"overthinking asdasdasdasdasdasd technical debt"</div>-->
+<!--						</div>-->
+<!--					</section>-->
+<!--					<section data-background-color="#1dd5c7">-->
+<!--						<div class="two-columns strong">-->
+<!--							<div class="on-accent strong">?</div>-->
+<!--							<div class="strong">Being the foundation for next hangar guys to follow</div>-->
+<!--						</div>-->
+<!--					</section>-->
+<!--					<section data-background-color="#05164d" >-->
+<!--						<div class="two-columns strong">-->
+<!--							<div class="on-dark strong">!</div>-->
+<!--							<div class="on-dark strong">"overthinking asdasdasdasdasdasd technical debt"</div>-->
+<!--						</div>-->
+<!--					</section>-->
+<!--				</section>-->
+
+<!--				<section class="background-horizontal-division">-->
+<!--					<div class="mini-slides-wrapper">-->
+<!--						<div><div class="hangar-content">1</div>-->
+<!--							<div class="mini-slides-content"> <div>maintenance</div> extending poorly written code is expensive, yet reverse engineering the code that was "overthinked" requires even more effort-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="active"><div class="hangar-content">2</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>implementation</div> the bigger and more complex the project, the lower speed of feature creation / bugfixing-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">3</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>usability</div> complexity growth is an organic thing and just like any other organic things should be trimmed and pruned if we want it to continue to be usable-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">4</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>exclusiveness</div> all developers should be able to contribute. Overthinked software often ends up in having 'priviledged' ones with magic knowledge-->
+<!--								<br><br> ...and stale bugs no-one is able to fix-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">5</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>premature optimization</div> effort that might not be required at all-->
+<!--							</div>-->
+<!--						</div>-->
+<!--						<div class="hidden"><div class="hangar-content">6</div>-->
+<!--							<div class="mini-slides-content">-->
+<!--								<div>onboarding</div> knowing tech stack should be enough to start working. Adding an abstraction level of 'knowing the product' cripples onboarding process-->
+<!--							</div>-->
+<!--						</div>-->
+<!--					</div>-->
+<!--				</section>-->
+
+<!--				<section>-->
+<!--					<div class="section-title">srutututu sekcja</div>-->
+<!--					<section>-->
+<!--						subsection text-->
+<!--					</section>-->
+<!--					<section>-->
+<!--						tralalalalalal-->
+<!--					</section>-->
+<!--					<section>-->
+<!--						hopsasasas-->
+<!--					</section>-->
+<!--				</section>-->
+
+
+<!--				<section data-background-color="#fff">-->
+<!--					<h1>_Thank you!</h1>-->
+<!--				</section>-->
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
